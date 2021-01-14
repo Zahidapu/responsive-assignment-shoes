@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nike React</title>
@@ -10,245 +11,294 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet">
+  </head>
+
+  <body>
     <header>
-        <section class="top-section d-flex justify-content-around mt-1">
-            <div class="top-logo">
-                <img src="Icon/logo.png" alt="top logo">
+      <section class="top-section d-flex justify-content-around mt-1">
+        <div class="top-logo">
+          <img src="Icon/logo.png" alt="top logo">
+        </div>
+        <div class="nav-bar">
+          <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""
+                  /></a>
+              <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link" href="#home">Home</a>
+                  <a class="nav-link" href="#product">Product</a>
+                  <a class="nav-link" href="#aboutus">About US</a>
+                  <a class="nav-link" href="#reviews">Reviews</a>
+
+                </div>
+              </div>
             </div>
-            <div class="nav-bar">
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
-                        <a class="navbar-brand" href="#"><img src="images/logo.png" alt="" /></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                            aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                            <div class="navbar-nav">
-                                <a class="nav-link" href="#home">Home</a>
-                                <a class="nav-link" href="#product">Product</a>
-                                <a class="nav-link" href="#aboutus">About US</a>
-                                <a class="nav-link" href="#reviews">Reviews</a>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </section>
+          </nav>
+        </div>
+      </section>
     </header>
 
 
     <main>
 
-      <section class="container pt-5 d-flex">
-        <div class=" bg-color row d-flex align-items-center p-5">
-            <div class="col-md-6">
-              <h1 id="home"><span class="orange-text">NIKE REACT</span><br>INFINITY RUN 2 </h1>
-              <p>The Nike React SuperRep 2 is designed for circuit training, HIIT, sprints and other fast-paced exercise. Layers of support team up with Zoom Air cushioning to keep your foot locked in and comfortable as you lunge, jump and push your way through every rep. A roomier design around the toes lets you get the perfect fit.</p>
-  
-              <button class="link-button"><i class="fas fa-cart-arrow-down"></i> BUY NOW</button>
+      <section class="container pt-5">
+        <div class="bg-color row align-items-center p-5">
+          <div class="col-md-6">
+            <h1 id="home"><span class="orange-text">NIKE REACT</span><br>INFINITY
+              RUN 2 </h1>
+            <p>The Nike React SuperRep 2 is designed for circuit training, HIIT,
+              sprints and other fast-paced exercise.
+              Layers of support team up with Zoom Air cushioning to keep your
+              foot locked in and comfortable as you lunge,
+              jump and push your way through every rep. A roomier design around
+              the toes lets you get the perfect fit.</p>
+
+            <button class="link-button"><i class="fas fa-cart-arrow-down"></i>
+              BUY NOW</button>
+
           </div>
-            </div >
-            
-        
-          <div class="bg_img bg_img col-md-6">
-              <img src="images/top.png" class="d-block w-100 alt="main images">
+          <div class="col-md-6">
+            <img src="images/top.png" class="d-block w-100 alt="main images">
           </div>
+        </div>
+
       </section>
-    
-        <section class="container">
-            <h3 id="product">CASUAL SHOES</h3>
-            <div class="row row-cols-1 row-cols-md-3 g-4">
-                <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/image-1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Nike Shoe</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <h2 class="orange-text">$224</h2>
-                        <button class="link-button"><i class="fas fa-cart-arrow-down"></i> Buy Now</button>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/image-2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Sneakers Skate Shoe</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <h2 class="orange-text">$224</h2>
-                        <button class="link-button"><i class="fas fa-cart-arrow-down"></i> Buy Now</button>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/image-3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Sneakers Basketball shoe</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <h2 class="orange-text">$224</h2>
-                        <button class="link-button"><i class="fas fa-cart-arrow-down"></i> Buy Now</button>
-                        </div>
-                    </div>
-                    </div>
+
+      <section class="container mt-5">
+        <h3 id="product">CASUAL SHOES</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="images/image-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Nike Shoe</h5>
+                <p class="card-text">This is a wider card with supporting text
+                  below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <h2 class="orange-text">$624</h2>
+                <button class="link-button"><i class="fas fa-cart-arrow-down"></i>
+                  Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="images/image-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sneakers Skate Shoe</h5>
+                <p class="card-text">This card has supporting text below as a
+                  natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <h2 class="orange-text">$564</h2>
+                <button class="link-button"><i class="fas fa-cart-arrow-down"></i>
+                  Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="images/image-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Sneakers Basketball shoe</h5>
+                <p class="card-text">This is a wider card with supporting text
+                  below as a natural lead-in to additional
+                  content. This card has even longer content than the first to
+                  show that equal height action.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <h2 class="orange-text">$234</h2>
+                <button class="link-button"><i class="fas fa-cart-arrow-down"></i>
+                  Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container mt-5">
+        <h3 id="product formal">FORMAL SHOES</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="images/group-1.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Prestige High-Cut Leather</h5>
+                <p class="card-text">This is a wider card with supporting text
+                  below as a natural lead-in to additional
+                  content. This content is a little bit longer.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <h2 class="orange-text">$454</h2>
+                <button class="link-button"><i class="fas fa-cart-arrow-down"></i>
+                  Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="images/group-2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Slip-On Formal Shoe</h5>
+                <p class="card-text">This card has supporting text below as a
+                  natural lead-in to additional content.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <h2 class="orange-text">$224</h2>
+                <button class="link-button"><i class="fas fa-cart-arrow-down"></i>
+                  Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 shadow">
+              <img src="images/group-3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Slip-On Formal Shoe</h5>
+                <p class="card-text">This is a wider card with supporting text
+                  below as a natural lead-in to additional
+                  content. This card has even longer content than the first to
+                  show that equal height action.</p>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <h2 class="orange-text">$134</h2>
+                <button class="link-button"><i class="fas fa-cart-arrow-down"></i>
+                  Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container pt-5"id="aboutus">
+        <div class="row d-flex align-items-center p-5">
+          <div class="col-md-6">
+            <div class="card shadow p-3 mb-3"style="width:450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="Icon/image1.png" class="d-block w-50 mt-4"
+                    alt="...">
                 </div>
-            </section>
-    
-    
-            <section class="container mt-5">
-                <h3 id="product formal">FORMAL SHOES</h3>
-                <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/group-1.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Prestige High-Cut Leather</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <h2 class="orange-text">$224</h2>
-                        <button class="link-button"><i class="fas fa-cart-arrow-down"></i> Buy Now</button>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/group-2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Slip-On Formal Shoe</h5>
-                        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <h2 class="orange-text">$224</h2>
-                        <button class="link-button"><i class="fas fa-cart-arrow-down"></i> Buy Now</button>
-                        </div>
-                    </div>
-                    </div>
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/group-3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Slip-On Formal Shoe</h5>
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-                        </div>
-                        <div class="card-footer d-flex justify-content-between">
-                            <h2 class="orange-text">$224</h2>
-                        <button class="link-button"><i class="fas fa-cart-arrow-down"></i> Buy Now</button>
-                        </div>
-                    </div>
-                    </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Find the Perfect Fit</h4>
+                    <h6 class="card-text">TEverybody is different, which is why
+                      we offer styles for every body.</h6>
+                  </div>
                 </div>
-            </section >
+              </div>
+            </div>
 
-
-            <section class="container pt-5 " id="aboutus">
-
-                <div class=" row d-flex align-items-center p-5">
-                    <div class="col-md-6  ">
-                        <div class="card shadow p-3 mb-3 " style="width:450px;">
-                            <div class="row g-0 ">
-                              <div class="col-md-4   ">
-                                <img  src="Icon/image1.png" class="d-block w-50 mt-4" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h4 class="card-title">Find the Perfect Fit</h4>
-                                  <h6 class="card-text">TEverybody is different, which is why we offer styles for every body.</h6>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-    
-                          <div class="card shadow p-3 mb-3 " style="width:450px;">
-                            <div class="row g-0">
-                              <div class="col-md-4">
-                                <img  src="Icon/image2.png" class="d-block w-50 mt-4" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h4 class="card-title">Free Exchanges</h4>
-                                  <h6 class="card-text">One of the many reasons you can shop with peace of mind.</h6>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-    
-                          <div class="card shadow p-3 mb-3   " style="width:450px;">
-                            <div class="row g-0 ">
-                              <div class="col-md-4">
-                                <img  src="Icon/image3.png" class="d-block w-50 mt-4" alt="...">
-                              </div>
-                              <div class="col-md-8">
-                                <div class="card-body">
-                                  <h4 class="card-title">Contact Our Seller</h4>
-                                  <h6 class="card-text">They are here to help you. That's quite literally what we pay them for.</h6>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-    
-                      </div>  
-                      
-                    <div class="col-md-6">
-                        <img src="Icon/XM.png" class="d-block w-100" alt="...">
-                    </div>
+            <div class="card shadow p-3 mb-3"style="width:450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="Icon/image2.png" class="d-block w-50 mt-4"
+                    alt="...">
                 </div>
-            </section>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Free Exchanges</h4>
+                    <h6 class="card-text">One of the many reasons you can shop
+                      with peace of mind.</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card shadow p-3 mb-3"style="width:450px;">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="Icon/image3.png" class="d-block w-50 mt-4"
+                    alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h4 class="card-title">Contact Our Seller</h4>
+                    <h6 class="card-text">They are here to help you. That's
+                      quite literally what we pay them for.</h6>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-            <div class="mt-5" id="reviews" style="margin-left: 100px; font-weight: 800;"><h3>REVIEWS</h3></div>
-            <section class="container d-flex justify-content-evenly review-background mt-5">
-                
-              <div class="row row-cols-1 row-cols-md-3 g-4">
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/review.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Nora Bolanos</h5>
-                        <p class="card-text">"Fast and secure. RECOMMANDED!!!"</p>
-                        </div>
-                    </div>
-                    </div>
+          </div>
 
-                    
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/review2.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Albert Bhagat</h5>
-                        <p class="card-text">"Delivery was fast"</p>
-                        </div>
-                    </div>
-                    </div>
+          <div class="col-md-6">
+            <img src="Icon/XM.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </section>
+
+      <section class="container justify-content-evenly review-background mt-5">
+        <h3 id="reviews">REVIEWS</h3>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card review-card h-100 shadow">
+              <img src="images/review.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Nora Bolanos</h5>
+                <p class="card-text">"Fast and secure. RECOMMANDED!!!"</p>
+              </div>
+            </div>
+          </div>
 
 
-                    <div class="col">
-                    <div class="card panda-card h-100 shadow">
-                        <img src="images/review3.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                        <h5 class="card-title">Joey simpson</h5>
-                        <p class="card-text">"I brought many items on a huge discount on this website"</p>
-                        </div>
-                    </div>
-                    </div>
-            </section>
-            </main>
-            <footer class="text-center mt-5">©2021.NIKE. All rights reserved</footer>
+          <div class="col">
+            <div class="card review-card h-100 shadow">
+              <img src="images/review2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Albert Bhagat</h5>
+                <p class="card-text">"Delivery was fast"</p>
+              </div>
+            </div>
+          </div>
 
-        
-    
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/all.min.js"></script>
-</body>
-</html>
+
+          <div class="col">
+            <div class="card review-card h-100 shadow">
+              <img src="images/review3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Joey simpson</h5>
+                <p class="card-text">"I brought many items on a huge discount on
+                  this website"</p>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="mt-5" id="foot">
+        <a target="_parent" href="https://www.facebook.com/zahidapu.a"><img
+            class="icon" src="Icon/f.png"
+            alt="facebook"></a>
+
+        <a target="_parent" href="https://www.instagram.com/jahidapu/"><img
+            class="icon" src="Icon/i.png"
+            alt="instagram"></a>
+
+        <a target="_parent" href="https://twitter.com/jahidapu124"><img
+            class="icon" src="Icon/t.png" alt="twitter"></a>
+
+        <a target="_parent" href="https://github.com/Zahidapu"><img class="icon"
+            src="Icon/g.png" alt="github"></a>
+        <p id="copyright">©NIKE REACT. 2021, ALL RIGHT RESERVED</p>
+      </footer>
+
+
+
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/all.min.js"></script>
+    </body>
+
+  </html>

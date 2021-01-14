@@ -30,3 +30,21 @@ body{
 .review-background{
     background-image: linear-gradient(white,lightgrey);
 }
+.review-card img{
+    width: 100px;
+    margin: 0 auto;
+    position:relative;
+    top:-30px;
+    
+}
+#foot{
+    text-align: center;
+}
+.icon{
+    width: 35px;
+    height: 35px;
+}
+#copyright{
+    font-size: 10px;
+    text-align: center;
+}
